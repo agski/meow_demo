@@ -1,6 +1,7 @@
 import { User } from "../models/userModel";
 
-
+// static json data, ideally replace with sql data base implementation
+// of User repository interface
 const testData = [
 	{
         "id": 1,

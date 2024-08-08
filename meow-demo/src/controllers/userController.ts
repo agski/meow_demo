@@ -1,12 +1,6 @@
 
+import { ApiResponse } from "../models/ApiResponseModel"
 import {  UserService } from "../services/userService"
-
-
-interface ApiResponse {
-    status_code: number
-    status_message: string
-    data: any
-}
 
 export interface UserController {
     get: (id: number) => ApiResponse
