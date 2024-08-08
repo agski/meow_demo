@@ -15,5 +15,5 @@ Two API routes:
 
 Setup:
 - install node: https://nodejs.org/en
-- from project root: npm run dev
+- from nextjs project root (meow_demo/meow-demo): npm run dev
 - navigate to localhost:3000
